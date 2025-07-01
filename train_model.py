@@ -49,7 +49,7 @@ print(f"Model saved as {model_save_path}")
 # --- 6. (Optional) Test Loading the Saved Model and Making a Prediction ---
 loaded_model_test = pickle.load(open(model_save_path, 'rb'))
 
-input_data = (2, 197, 70, 45, 543, 30.5, 0.158, 53)
+input_data = (1,189,60,23,846,30.1,0.398,59,1)
 import numpy as np
 input_data_as_numpy_array = np.asarray(input_data)
 input_data_reshaped = input_data_as_numpy_array.reshape(1, -1)
