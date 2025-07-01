@@ -36,7 +36,7 @@ def diabetes_prediction(input_data):
 # --- 3. Streamlit Web App Interface ---
 def main():
     # Giving a title for the web page
-    st.title('Diabetes Prediction Web App')
+    st.title('DIABETES PREDICTION')
 
     # Getting the input data from the user
     # Using st.number_input is generally safer for numerical inputs
