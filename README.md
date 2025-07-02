@@ -39,30 +39,31 @@ yaml
 ## 🛠️ Setup Instructions
 
 1️⃣ Clone the Repository
-
+```bash
 git clone https://github.com/yourusername/diabetes-prediction.git
 cd diabetes-prediction
-
+```
 2️⃣ Set Up a Virtual Environment (Recommended)
 To keep dependencies isolated, create a virtual environment:
-
+```bash
 python -m venv venv
 source venv/bin/activate     # On Linux/Mac
 venv\Scripts\activate        # On Windows
-
+```
 3️⃣ Install Required Libraries
-
+```bash
 pip install -r requirements.txt
+```
 If you don’t have requirements.txt, you can install manually:
-
+```bash
 pip install pandas numpy scikit-learn streamlit
-
+```
 
 🎯 Step 1: Train the Model
 Run the training script to train and save your model:
-
+```bash
 python train_model.py
-
+```
 This will:
 
 Load the diabetes.csv dataset
@@ -77,9 +78,11 @@ Save the trained model as trained_model.sav
 
 🌐 Step 2: Launch the Web App
 Now run the Streamlit app:
-
+```bash
 streamlit run diabetes_app.py
+```
 This will open a browser window with an interactive form to input medical values and get a diabetes prediction.
+
 
 🧪 Sample Input Fields in the App
 
